@@ -9,7 +9,7 @@ const Login = (props) => {
   const submitform = async (e) => {
     e.preventDefault();
     // API call
-    const response = await fetch(`http://localhost:5000/api/auth/login`, {
+    const response = await fetch(`https://y-notebook-api.vercel.app/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
