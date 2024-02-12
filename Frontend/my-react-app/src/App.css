@@ -1,0 +1,176 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* Home page design */
+.content{
+  margin-top: -26rem;
+  width: 54vw;
+}
+.get-img{
+  position: relative;
+  border: none;
+  top: -23vh;
+  left: -1vw;
+}
+.color{
+  color: violet;
+}
+.inline-flex{
+  display: inline-flex;
+}
+.bg-color{
+  background-color: ghostwhite;
+}
+.wd{
+  /* flex: 0 0 auto; */
+  width: 33%;
+}
+.ft{
+  font-size: 3vw;
+  padding: 10px;
+}
+/* Stylink in icon */
+i{
+  cursor: pointer;
+  color: #42bdae;
+  font-weight: 700;
+}
+.eye-icon{
+  color: black;
+  position: absolute;
+  left: 23vw;
+  margin-top: -4vw;
+}
+.loginbtn:hover{
+  background-color:#42bdae;
+}
+.login-container{
+ height: 100vh;
+ background-color:rgb(190, 196, 202);
+}
+/* .login-flex-container{
+position: absolute;
+top: 25vw;
+} */
+.login-from{
+  position: relative;
+  left: 17vw;
+  top: 16vh;
+}
+.span{
+  position: relative;
+  top: -74vh;
+  left: 1vw;
+  font-size: 2.7vw;
+  font-weight: 700;
+}
+.login-h1{
+  position: relative;
+  top: -33vw;
+}
+.signup-form {
+  max-width: 300px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.3); /* Adjust the opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* This creates the glass effect */
+  box-shadow: 0px 0px 32px beige;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+} */
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+/* Contact page design */
+.box-1{
+  width: 33vw;
+  height: 85vh;
+  background-color: #007bff;
+  padding: 22px;
+}
+.contact-img{
+  width: 20vw;
+  padding: 26px 26px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+.box-2{
+  min-width: 51vw;
+  background-color: whitesmoke;
+  padding: 85px 42px;
+  height: 85vh;
+}
+
+
+@media (max-width: 500px) {
+  /* getstarted comp */
+  .get-img-res{
+    display: block;
+    margin: auto;
+    width: 34vh;
+  }
+  .content {
+    padding: 0px 22px;
+    margin: 11px;
+    width: auto;
+  }
+  .wd{
+    display: contents;
+  }
+  .ft {
+    font-size: 6vw;
+  }
+  /* contact comp */
+  .non-flex{
+    flex-direction: column ;
+  }
+  .box-1{
+    width: 87vw;
+    height: 50vh;
+    background-color: #007bff;
+  }
+  .contact-img {
+    width: 46vw;
+    padding: 6px 27px;
+  }
+  .box-2{
+       height: 66vh;
+  }
+.eye-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    padding: 22px 37px;
+    margin: 191px;
+    /* left: 58vw;
+    margin-top: -10vw; */
+  }
+  
+}
