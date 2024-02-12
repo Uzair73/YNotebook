@@ -49,7 +49,6 @@ const Signup = (props) => {
   return (
     <>
       <div style={containerStyle} className="container signup-container">
-        {/* <img src="..." className="img-fluid" alt="..." /> */}
         <h4 className="py-4 text-center text-white">Create Your account to the Ynotebook</h4>
         <div className="container d-flex justify-content-center">
           <form
