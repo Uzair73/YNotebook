@@ -20,7 +20,6 @@ const Login = (props) => {
       }),
     });
     const json = await response.json();
-    console.log(json);
     if (json.success) {
       // save the auth token in the localstorage & redirect the home page
       localStorage.setItem("token", json.authtoken);
