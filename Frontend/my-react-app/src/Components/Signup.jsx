@@ -14,7 +14,7 @@ const Signup = (props) => {
     const { name, email, password } = credentials;
     e.preventDefault();
     // API call
-    const response = await fetch(`http://localhost:5000/api/auth/signup`, {
+    const response = await fetch(`https://y-notebook-api.vercel.app/api/auth/signup`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
