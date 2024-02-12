@@ -19,7 +19,7 @@ const Contact = (props) => {
         <div className="container d-flex non-flex gap">
           <div className="box-1 border-primary">
             <img
-              src="\Images\contactbg1.png"
+              src="/Images/contactbg1.png"
               className="d-flex contact-img img-fluid"
               alt=""
             />
