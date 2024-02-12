@@ -1,11 +1,8 @@
-/* Fonts imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
-  /* font-family: 'Poppins', sans-serif; */
 }
-/* Home page design */
 .content{
   margin-top: -26rem;
   width: 54vw;
@@ -26,14 +23,12 @@
   background-color: ghostwhite;
 }
 .wd{
-  /* flex: 0 0 auto; */
   width: 33%;
 }
 .ft{
   font-size: 3vw;
   padding: 10px;
 }
-/* Stylink in icon */
 i{
   cursor: pointer;
   color: #42bdae;
@@ -52,10 +47,6 @@ i{
  height: 100vh;
  background-color:rgb(190, 196, 202);
 }
-/* .login-flex-container{
-position: absolute;
-top: 25vw;
-} */
 .login-from{
   position: relative;
   left: 17vw;
@@ -105,7 +96,6 @@ top: 25vw;
 .signup-form button:hover {
   background-color: #0056b3;
 }
-/* Contact page design */
 .box-1{
   width: 33vw;
   height: 85vh;
@@ -129,7 +119,6 @@ top: 25vw;
 
 
 @media (max-width: 500px) {
-  /* getstarted comp */
   .get-img-res{
     display: block;
     margin: auto;
@@ -146,7 +135,6 @@ top: 25vw;
   .ft {
     font-size: 6vw;
   }
-  /* contact comp */
   .non-flex{
     flex-direction: column ;
   }
@@ -169,8 +157,6 @@ top: 25vw;
     border: 0;
     padding: 22px 37px;
     margin: 191px;
-    /* left: 58vw;
-    margin-top: -10vw; */
   }
   
 }
