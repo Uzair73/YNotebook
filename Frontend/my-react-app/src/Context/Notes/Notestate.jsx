@@ -3,7 +3,7 @@ import NoteContext from "./notecontext";
 import { jwtDecode } from "jwt-decode";
 
 const Notestate = (props) => {
-  const host = " http://localhost:5000";
+  const host = "https://todo-api-flax.vercel.app";
   const notesInitials = [];
   const [note, setNote] = useState(notesInitials);
 
